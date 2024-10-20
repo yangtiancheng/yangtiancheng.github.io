@@ -1,0 +1,147 @@
+body {
+    width: 1000px;
+}
+body,
+main,
+h1,
+ul,
+li,
+p {
+    /* background-color: darkblue; */
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+
+body main {
+
+    /* background-color: darkblue; */
+    /* height: 1000px; */
+    width: 1000px;
+}
+
+header {
+    border-radius: 5px;
+    background-color: rgba(150, 199, 188, 0.2);
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+.clearFloat::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header div img {
+    /* border: 1px solid #000; */
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+header div img {
+    /* border: 1px solid #000; */
+    float: left;
+    margin: -50px 20px 0px 20px;
+}
+
+.webLogo {
+
+    border: 1px solid #bcbcbc;
+    background-color: beige;
+}
+
+.nickName {
+    float: left;
+
+}
+
+.descripteInfo {
+    float: left;
+    /* margin-top: 50px; */
+}
+.mainLeft {
+border-radius: 5px;
+    float: left;
+    /* background-color: #6da223; */
+    width: 295px;
+    height: 500px;
+}
+.mainLeftTop {
+    background-color: rgb(51, 32, 32);
+    height: 245px;
+    border-radius: 5px;
+}
+.mainLeftBottom {
+    background-color: rgb(172, 41, 41);
+    height: 245px;
+    margin-top:5px;
+    border-radius: 5px;
+}
+.mainMid {
+    border-radius: 5px;
+    
+    float: left;
+    margin-left:5px;
+    /* background-color: #4d8ea9; */
+    width: 500px;
+    height: 500px;
+}
+.mainMidTop {
+    background-color: #b72ca6;
+    height: 245px;
+    border-radius: 5px;
+}
+.mainMidBottom {
+    background-color: #ae5959;
+    height: 245px;
+    margin-top:5px;
+    border-radius: 5px;
+}
+.mainRight {
+border-radius: 5px;
+float: right;
+    background-color: #499d8f6a;
+    width: 195px;
+    height: 495px;
+}
+.pageFooter {
+    background-color: #499d8f6a;
+    margin:10px 0px 10px 0px;
+    border-radius: 5px;
+    height: 50px;
+    margin-top:520px;
+}
+nav {
+    /* background-color: #4d8ea9; */
+    margin: 10px auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    /* border: 1px solid #182989; */
+    float: left;
+    margin: 5px 10px 5px 0px;
+    border: ;
+}
+nav ul li:hover {
+    /* border: 1px solid #182989; */
+    background-color: #f4e9d12c;
+    
+}
+
+nav ul li a {
+    /* text-align: center; */
+    text-decoration: dotted;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+    /* text-align: center; */
+    text-decoration: dotted;
+    color: rgba(38, 124, 199, 0.793);
+}
